@@ -91,24 +91,24 @@ plugins:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
 
-links1:
-  - name:       首页
-    url:       /
-    type:       recent
-    external:       false
-  - name:       关于我
-    url:       /blog/AboutMe
-    type:       AboutMe
-    external:       false
-  - name:       文章列表
-    url:       /blog/list
-    type:       list
-    external:       false
-  - name:       文章详情
-    url:       /blog/detail
-    type:       detail
-    external:       false
-blog_1: recent
-blog_2: AboutMe
-blog_3: list
-blog_4: detail
+# links1:
+#   - name:       首页
+#     url:       /
+#     type:       recent
+#     external:       false
+#   - name:       关于我
+#     url:       /blog/AboutMe
+#     type:       AboutMe
+#     external:       false
+#   - name:       文章列表
+#     url:       /blog/list
+#     type:       list
+#     external:       false
+#   - name:       文章详情
+#     url:       /blog/detail
+#     type:       detail
+#     external:       false
+# blog_1: recent
+# blog_2: AboutMe
+# blog_3: list
+# blog_4: detail
