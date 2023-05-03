@@ -1,5 +1,5 @@
 # Site settings
-title: The Minimum Viable Model
+title: MyBlog —— a place for CPer
 description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -24,18 +24,18 @@ logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Armando Maynez # add your name
+author: Silhouette
 author-pic: Myself_Neon_grey.jpg
 about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
 
 # Contact links
-email: armando.maynez@gmail.com # Add your Email address
-phone: # Add your Phone number
-website: https://amaynez.github.io # Add your website
-linkedin: amaynez # Add your Linkedin handle
-github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
+email: 10205501416@stu.ecnu.edu.cn # Add your Email address
+phone: 18210990610 # Add your Phone number
+website: https://Sihouette0.github.io # Add your website
+linkedin:  # Add your Linkedin handle
+github: Sihouette0 # Add your Github handle
+twitter:  # Add your Twitter handle
+bandcamp:  # Add your Bandcamp username
 stackoverflow: stackoverflow # Add your stackoverflow account
 
 # Newsletter
@@ -90,3 +90,25 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
+links1:
+  - name:       首页
+    url:       /
+    type:       recent
+    external:       false
+  - name:       关于我
+    url:       /blog/AboutMe
+    type:       AboutMe
+    external:       false
+  - name:       文章列表
+    url:       /blog/list
+    type:       list
+    external:       false
+  - name:       文章详情
+    url:       /blog/detail
+    type:       detail
+    external:       false
+blog_1: recent
+blog_2: AboutMe
+blog_3: list
+blog_4: detail
